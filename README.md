@@ -1,25 +1,34 @@
-# AI Recipe Assistant
+# AI-Recipe Assistant 🍳🤖
 
-AI Recipe Assistant is an interactive Python application that helps users explore, create, and manage recipes using AI. It provides a smooth interface for experimenting with recipe generation, editing, and storage.
+An AI-powered recipe assistant that helps you generate, customize, and explore recipes using natural language. Built with Python and Gradio for an interactive web interface.
 
-## Features
+---
 
-- Generate new recipes using AI models.
-- Save and organize your favorite recipes.
-- User-friendly interface with notebook and Gradio support.
-- Excludes unnecessary checkpoint files for clean Git history.
+![AI Recipe Demo](https://github.com/user-attachments/assets/37f84065-84bb-4b07-a7f1-16b6cd1e58c7)
 
-## Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Sagar2648/ai-recipe-assistant.git
-   cd ai-recipe-assistant
 
-2. Create a virtual environment:
-      python3 -m venv venv
-      source venv/bin/activate  (# On Windows: venv\Scripts\activate)
+## Features ✨
+- Generate recipes from ingredients you have.
+- Customize recipes based on dietary preferences.
+- Interactive Gradio interface for easy usage.
+- History of generated recipes (optional feature).
 
-3. Install dependencies:
-      pip install -r requirements.txt
+---
+
+## Demo 🎥
+You can run the app locally:
+
+```bash
+# Activate your virtual environment
+source venv/bin/activate  # macOS/Linux
+# or
+.\venv\Scripts\activate   # Windows
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Launch the Gradio app
+python AI-Recipe.ipynb  # or convert to .py if needed
+
 
